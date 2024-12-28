@@ -308,7 +308,7 @@
         {
             "Tag": "PHST",
             "Name": "Publication History Status Date",
-            "Description": "Publisher supplied dates regarding the article publishing process \n          and PubMed date stamps:\n          \n\n              received: manuscript received for review\n            \n\n              revised: manuscript revised by publisher or author\n            \n\n              accepted: manuscript accepted for publication\n            \n\n              aheadofprint: published electronically prior to final publication\n            \n\n              entrez: PubMed Create Date [crdt]\n            \n\n              pubmed: PubMed Entry Date [edat]\n            \n\n              medline: PubMed MeSH Date [mhda]"
+            "Description": "Publisher supplied dates regarding the article publishing process and PubMed date stamps:\nreceived: manuscript received for review\nrevised: manuscript revised by publisher or author\naccepted: manuscript accepted for publication\naheadofprint: published electronically prior to final publication\nentrez: PubMed Create Date [crdt]\npubmed: PubMed Entry Date [edat]\nmedline: PubMed MeSH Date [mhda]"
         },
         {
             "Tag": "PL",
