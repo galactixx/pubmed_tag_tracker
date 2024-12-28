@@ -1,0 +1,454 @@
+{
+    "pubmed_tags": [
+        {
+            "Tag": "AB",
+            "Name": "Abstract",
+            "Description": "English language abstract taken directly from the published article"
+        },
+        {
+            "Tag": "AD",
+            "Name": "Affiliation",
+            "Description": "Author or corporate author addresses"
+        },
+        {
+            "Tag": "AID",
+            "Name": "Article Identifier",
+            "Description": "Article ID values supplied by the publisher may include the pii (controlled publisher identifier), doi (digital object identifier), or book accession"
+        },
+        {
+            "Tag": "AU",
+            "Name": "Author",
+            "Description": "Authors"
+        },
+        {
+            "Tag": "AUID",
+            "Name": "Author Identifier",
+            "Description": "Unique identifier associated with an author, corporate author, or investigator name"
+        },
+        {
+            "Tag": "BTI",
+            "Name": "Book Title",
+            "Description": "Book Title"
+        },
+        {
+            "Tag": "CI",
+            "Name": "Copyright Information",
+            "Description": "Copyright statement provided by the publisher"
+        },
+        {
+            "Tag": "CIN",
+            "Name": "Comment In",
+            "Description": "Reference containing a comment about the article"
+        },
+        {
+            "Tag": "CN",
+            "Name": "Corporate Author",
+            "Description": "Corporate author or group names with authorship responsibility"
+        },
+        {
+            "Tag": "COI",
+            "Name": "Conflict of Interest",
+            "Description": "Conflict of interest statement"
+        },
+        {
+            "Tag": "CON",
+            "Name": "Comment On",
+            "Description": "Reference upon which the article comments"
+        },
+        {
+            "Tag": "CP",
+            "Name": "Chapter",
+            "Description": "Book chapter"
+        },
+        {
+            "Tag": "CRDT",
+            "Name": "Create Date",
+            "Description": "The date the citation record was first created"
+        },
+        {
+            "Tag": "CRF",
+            "Name": "Corrected and republished from",
+            "Description": "Final, correct version of an article"
+        },
+        {
+            "Tag": "CRI",
+            "Name": "Corrected and republished in",
+            "Description": "Original article that was republished in corrected form"
+        },
+        {
+            "Tag": "CTDT",
+            "Name": "Contribution Date",
+            "Description": "Book contribution date"
+        },
+        {
+            "Tag": "CTI",
+            "Name": "Collection Title",
+            "Description": "Collection Title"
+        },
+        {
+            "Tag": "DCOM",
+            "Name": "Completion Date",
+            "Description": "NLM internal processing completion date"
+        },
+        {
+            "Tag": "DDIN",
+            "Name": "Dataset described in",
+            "Description": "Citation for the primary article resulting from a dataset"
+        },
+        {
+            "Tag": "DRIN",
+            "Name": "Dataset use reported in",
+            "Description": "Citation for an article that uses a dataset from another scientific article"
+        },
+        {
+            "Tag": "DEP",
+            "Name": "Date of Electronic Publication",
+            "Description": "Electronic publication date"
+        },
+        {
+            "Tag": "DP",
+            "Name": "Publication Date",
+            "Description": "The date the article was published"
+        },
+        {
+            "Tag": "DRDT",
+            "Name": "Date Revised",
+            "Description": "Book Revision Date"
+        },
+        {
+            "Tag": "ECF",
+            "Name": "Expression of Concern For",
+            "Description": "Reference containing an expression of concern for an article"
+        },
+        {
+            "Tag": "ECI",
+            "Name": "Expression of Concern In",
+            "Description": "Cites the original article for which there is an expression of concern"
+        },
+        {
+            "Tag": "EDAT",
+            "Name": "Entry Date",
+            "Description": "The date the citation was added to PubMed; the date is set to the publication date if added more than 1 year after the date published"
+        },
+        {
+            "Tag": "EFR",
+            "Name": "Erratum For",
+            "Description": "Cites the original article for which there is a published erratum; as of 2016, partial retractions are considered errata"
+        },
+        {
+            "Tag": "EIN",
+            "Name": "Erratum In",
+            "Description": "Cites a published erratum to the article"
+        },
+        {
+            "Tag": "ED",
+            "Name": "Editor",
+            "Description": "Book editors"
+        },
+        {
+            "Tag": "EN",
+            "Name": "Edition",
+            "Description": "Book edition"
+        },
+        {
+            "Tag": "FAU",
+            "Name": "Full Author Name",
+            "Description": "Full author names"
+        },
+        {
+            "Tag": "FED",
+            "Name": "Full Editor Name",
+            "Description": "Full editor names"
+        },
+        {
+            "Tag": "FIR",
+            "Name": "Full Investigator Name",
+            "Description": "Full investigator or collaborator names"
+        },
+        {
+            "Tag": "FPS",
+            "Name": "Full Personal Name as Subject",
+            "Description": "Full Personal Name of the subject of the article"
+        },
+        {
+            "Tag": "GN",
+            "Name": "General Note",
+            "Description": "Supplemental or descriptive information related to the document"
+        },
+        {
+            "Tag": "GR",
+            "Name": "Grants and Funding",
+            "Description": "Grant numbers, contract numbers, and intramural research identifiers associated with a publication"
+        },
+        {
+            "Tag": "GS",
+            "Name": "Gene Symbol",
+            "Description": "Abbreviated gene names (used 1991 through 1996)"
+        },
+        {
+            "Tag": "IP",
+            "Name": "Issue",
+            "Description": "The number of the issue, part, or supplement of the journal in which the article was published"
+        },
+        {
+            "Tag": "IR",
+            "Name": "Investigator",
+            "Description": "Investigator or collaborator"
+        },
+        {
+            "Tag": "IRAD",
+            "Name": "Investigator Affiliation",
+            "Description": "Investigator or collaborator addresses"
+        },
+        {
+            "Tag": "IS",
+            "Name": "ISSN",
+            "Description": "International Standard Serial Number of the journal"
+        },
+        {
+            "Tag": "ISBN",
+            "Name": "ISBN",
+            "Description": "International Standard Book Number"
+        },
+        {
+            "Tag": "JID",
+            "Name": "NLM Unique ID",
+            "Description": "Unique journal ID in the NLM catalog of books, journals, and audiovisuals"
+        },
+        {
+            "Tag": "JT",
+            "Name": "Full Journal Title",
+            "Description": "Full journal title from NLM cataloging data"
+        },
+        {
+            "Tag": "LA",
+            "Name": "Language",
+            "Description": "The language in which the article was published"
+        },
+        {
+            "Tag": "LID",
+            "Name": "Location ID",
+            "Description": "The pii or doi that serves the role of pagination"
+        },
+        {
+            "Tag": "LR",
+            "Name": "Modification Date",
+            "Description": "Citation last revision date"
+        },
+        {
+            "Tag": "MH",
+            "Name": "MeSH Terms",
+            "Description": "NLM Medical Subject Headings (MeSH) controlled vocabulary"
+        },
+        {
+            "Tag": "MHDA",
+            "Name": "MeSH Date",
+            "Description": "The date MeSH terms were added to the citation. The MeSH date is the same as the Entrez date until MeSH are added"
+        },
+        {
+            "Tag": "MID",
+            "Name": "Manuscript Identifier",
+            "Description": "Identifier assigned to an author manuscript submitted to the NIH Manuscript Submission System"
+        },
+        {
+            "Tag": "NM",
+            "Name": "Substance Name",
+            "Description": "Supplementary Concept Record (SCR) data"
+        },
+        {
+            "Tag": "OAB",
+            "Name": "Other Abstract",
+            "Description": "Abstract supplied by an NLM collaborating organization"
+        },
+        {
+            "Tag": "OABL",
+            "Name": "Other Abstract Language",
+            "Description": "Language of an abstract available from the publisher"
+        },
+        {
+            "Tag": "OCI",
+            "Name": "Other Copyright Information",
+            "Description": "Copyright owner"
+        },
+        {
+            "Tag": "OID",
+            "Name": "Other ID",
+            "Description": "Identification numbers provided by organizations supplying citation data"
+        },
+        {
+            "Tag": "ORI",
+            "Name": "Original Report In",
+            "Description": "Cites the original article associated with the patient summary"
+        },
+        {
+            "Tag": "OT",
+            "Name": "Other Term",
+            "Description": "Non-MeSH subject terms (keywords) either assigned by an organization identified by the Other Term Owner, or generated by the author and submitted by the publisher"
+        },
+        {
+            "Tag": "OTO",
+            "Name": "Other Term Owner",
+            "Description": "Organization that may have provided the Other Term data"
+        },
+        {
+            "Tag": "OWN",
+            "Name": "Owner",
+            "Description": "Organization acronym that supplied citation data"
+        },
+        {
+            "Tag": "PB",
+            "Name": "Publisher",
+            "Description": "Publishers of Books & Documents citations"
+        },
+        {
+            "Tag": "PG",
+            "Name": "Pagination",
+            "Description": "The full pagination of the article"
+        },
+        {
+            "Tag": "PHST",
+            "Name": "Publication History Status Date",
+            "Description": "Publisher supplied dates regarding the article publishing process \n          and PubMed date stamps:\n          \n\n              received: manuscript received for review\n            \n\n              revised: manuscript revised by publisher or author\n            \n\n              accepted: manuscript accepted for publication\n            \n\n              aheadofprint: published electronically prior to final publication\n            \n\n              entrez: PubMed Create Date [crdt]\n            \n\n              pubmed: PubMed Entry Date [edat]\n            \n\n              medline: PubMed MeSH Date [mhda]"
+        },
+        {
+            "Tag": "PL",
+            "Name": "Place of Publication",
+            "Description": "Journal's (country only) or book\u2019s place of publication"
+        },
+        {
+            "Tag": "PMC",
+            "Name": "PubMed Central Identifier",
+            "Description": "Unique identifier for the cited article in PubMed Central (PMC)"
+        },
+        {
+            "Tag": "PMCR",
+            "Name": "PMC Release",
+            "Description": "Availability of PMC article"
+        },
+        {
+            "Tag": "PMID",
+            "Name": "PubMed Unique Identifier",
+            "Description": "Unique number assigned to each PubMed citation"
+        },
+        {
+            "Tag": "PS",
+            "Name": "Personal Name as Subject",
+            "Description": "Individual is the subject of the article"
+        },
+        {
+            "Tag": "PST",
+            "Name": "Publication Status",
+            "Description": "Publication status"
+        },
+        {
+            "Tag": "PT",
+            "Name": "Publication Type",
+            "Description": "The type of material the article represents"
+        },
+        {
+            "Tag": "RF",
+            "Name": "Number of References",
+            "Description": "Number of bibliographic references for Review articles"
+        },
+        {
+            "Tag": "RIN",
+            "Name": "Retraction In",
+            "Description": "Retraction of the article"
+        },
+        {
+            "Tag": "RN",
+            "Name": "EC/RN Number",
+            "Description": "Includes chemical, protocol or disease terms. May also include a number assigned by the Enzyme Commission or by the Chemical Abstracts Service."
+        },
+        {
+            "Tag": "ROF",
+            "Name": "Retraction Of",
+            "Description": "Article being retracted"
+        },
+        {
+            "Tag": "RPF",
+            "Name": "Republished From",
+            "Description": "Article being cited has been republished or reprinted in either full or abridged form from another source"
+        },
+        {
+            "Tag": "RPI",
+            "Name": "Republished In",
+            "Description": "Article being cited also appears in another source in either full or abridged form"
+        },
+        {
+            "Tag": "RRI",
+            "Name": "Retracted and Republished In",
+            "Description": "Final, republished version of an article"
+        },
+        {
+            "Tag": "RRF",
+            "Name": "Retracted and Republished From",
+            "Description": "Original article that was retracted and republished"
+        },
+        {
+            "Tag": "SB",
+            "Name": "Subset",
+            "Description": "Journal or citation subset values representing specialized topics"
+        },
+        {
+            "Tag": "SFM",
+            "Name": "Space Flight Mission",
+            "Description": "NASA-supplied data space flight/mission name and/or number"
+        },
+        {
+            "Tag": "SI",
+            "Name": "Secondary Source ID",
+            "Description": "Identifies secondary source databanks and accession numbers of molecular sequences discussed in articles"
+        },
+        {
+            "Tag": "SO",
+            "Name": "Source",
+            "Description": "Composite field containing bibliographic information"
+        },
+        {
+            "Tag": "SPIN",
+            "Name": "Summary For Patients In",
+            "Description": "Cites a patient summary article"
+        },
+        {
+            "Tag": "STAT",
+            "Name": "Status Tag",
+            "Description": "Used for internal processing at NLM"
+        },
+        {
+            "Tag": "TA",
+            "Name": "Journal Title Abbreviation",
+            "Description": "Standard journal title abbreviation"
+        },
+        {
+            "Tag": "TI",
+            "Name": "Title",
+            "Description": "The title of the article"
+        },
+        {
+            "Tag": "TT",
+            "Name": "Transliterated Title",
+            "Description": "Title of the article originally published in a non-English language, in that language"
+        },
+        {
+            "Tag": "UIN",
+            "Name": "Update In",
+            "Description": "Update to the article"
+        },
+        {
+            "Tag": "UOF",
+            "Name": "Update Of",
+            "Description": "The article being updated"
+        },
+        {
+            "Tag": "VI",
+            "Name": "Volume",
+            "Description": "Volume number of the journal"
+        },
+        {
+            "Tag": "VTI",
+            "Name": "Volume Title",
+            "Description": "Book Volume Title"
+        }
+    ]
+}
