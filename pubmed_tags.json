@@ -313,7 +313,7 @@
         {
             "Tag": "PL",
             "Name": "Place of Publication",
-            "Description": "Journal's (country only) or book\u2019s place of publication"
+            "Description": "Journal's (country only) or book’s place of publication"
         },
         {
             "Tag": "PMC",
