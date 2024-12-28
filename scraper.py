@@ -1,6 +1,7 @@
 from typing import Dict, Generator, List
 import json
 import html
+import unicodedata
 
 from bs4 import BeautifulSoup, Tag
 import requests
@@ -16,7 +17,8 @@ PUBMED_URL = 'https://pubmed.ncbi.nlm.nih.gov/help/'
 
 def get_text(element: Tag) -> str:
     raw_text = element.get_text().strip()
-    decoded_text = html.unescape(raw_text)
+    normalized_text = unicodedata.normalize('NFKC', raw_text)
+    decoded_text = html.unescape(normalized_text)
     return decoded_text
 
 
@@ -57,8 +59,8 @@ def fetch_pubmed_tags() -> List[Dict[str, str]]:
 
 def save_pubmed_tags_to_json(pubmed_tags: List[Dict[str, str]], filename: str) -> None:
     pubmed_data = {'pubmed_tags': pubmed_tags}
-    with open(filename, 'w') as json_file:
-        json.dump(pubmed_data, json_file, indent=4)
+    with open(filename, 'w', encoding='utf-8') as json_file:
+        json.dump(pubmed_data, json_file, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
