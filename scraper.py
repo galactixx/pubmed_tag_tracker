@@ -1,8 +1,9 @@
-import requests
-from bs4 import BeautifulSoup, Tag
 from typing import Dict, Generator, List
 import json
 import html
+
+from bs4 import BeautifulSoup, Tag
+import requests
 
 # Constants and global variables
 PUBMED_TAG_TABLE_COLUMN_NAMES = ['Tag', 'Name', 'Description']
