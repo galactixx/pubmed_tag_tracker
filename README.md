@@ -42,7 +42,7 @@ Here’s an example entry from `pubmed_tags.json`:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pubmed_tag_tracker.git
+   git clone https://github.com/galactixx/pubmed_tag_tracker.git
    ```
 2. Navigate to the project directory:
    ```bash
