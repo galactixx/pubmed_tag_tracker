@@ -1,8 +1,8 @@
-name: Daily Scrape PubMed Tags
+name: Weekly Scrape PubMed Tags
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 permissions:
